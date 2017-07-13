@@ -12,6 +12,6 @@ Vagrant.configure("2") do |config|
       vb.memory = 512
     end
 
-    #lbconfig.vm.provision :shell, path: "bootstrap-lb.sh"
+    lbconfig.vm.provision :shell, path: "bootstrap-lb.sh"
   end
 end
